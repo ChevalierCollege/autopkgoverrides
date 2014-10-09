@@ -25,7 +25,7 @@
 			<key>developer</key>
 			<string>Microsoft</string>
 			<key>icon_name</key>
-			<string>Silverlight.png</string>
+			<string>MicrosoftSilverlight.png</string>
 			<key>description</key>
 			<string>Microsoft Silverlight is a free web-browser plug-in that enables interactive media experiences, rich business applications and immersive mobile apps.</string>
 			<key>display_name</key>
