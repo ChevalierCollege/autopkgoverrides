@@ -8,7 +8,7 @@ As long as there is not yet an official release of version 2, DOWNLOAD_URL
 simply points to that of the latest auto-build:
 https://munkibuilds.org/munkitools2-latest.pkg</string>
     <key>Identifier</key>
-    <string>com.github.ChevalierCollege.autopkgrecipes.munki.munki</string>
+	<string>au.edu.nsw.chevalier.it.munki.Munkitools2</string>
     <key>Input</key>
     <dict>
         <key>NAME</key>

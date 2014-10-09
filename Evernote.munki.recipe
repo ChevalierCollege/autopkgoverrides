@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.Evernote</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>tools/evernote/evernote</string>
+		<key>NAME</key>
+		<string>Evernote</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://update.evernote.com/public/ENMac/EvernoteMacUpdate.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Useful Tools</string>
+			<key>developer</key>
+			<string>Evernote</string>
+			<key>icon_name</key>
+			<string>Evernote.png</string>
+			<key>description</key>
+			<string>Evernote makes it easy to remember things big and small from your everyday life using your computer, phone, tablet and the web.</string>
+			<key>display_name</key>
+			<string>Evernote</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Evernote</string>
+</dict>
+</plist>

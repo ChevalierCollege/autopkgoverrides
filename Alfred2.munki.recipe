@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.Alfred2</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>tools/runningwithcrayons/alfred</string>
+		<key>NAME</key>
+		<string>Alfred2</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>blocking_applications</key>
+			<array>
+				<string>Alfred 2</string>
+				<string>Alfred Preferences</string>
+			</array>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Useful Tools</string>
+			<key>developer</key>
+			<string>Running with Crayons Ltd</string>
+			<key>icon_name</key>
+			<string>Alfred2.png</string>
+			<key>description</key>
+			<string>Alfred is a productivity application for Mac OS X, which aims to save you time in searching your local computer and the web.</string>
+			<key>display_name</key>
+			<string>Alfred 2</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>io.github.hjuutilainen.munki.Alfred2</string>
+</dict>
+</plist>

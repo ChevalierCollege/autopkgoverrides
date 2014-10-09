@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.Skitch</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>tools/evernote/skitch</string>
+		<key>NAME</key>
+		<string>Skitch</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Useful Tools</string>
+			<key>developer</key>
+			<string>Evernote</string>
+			<key>icon_name</key>
+			<string>Skitch.png</string>
+			<key>description</key>
+			<string>Skitch is a tool to capture and annotate images.</string>
+			<key>display_name</key>
+			<string>Skitch</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.sheagcraig.munki.Skitch</string>
+</dict>
+</plist>
