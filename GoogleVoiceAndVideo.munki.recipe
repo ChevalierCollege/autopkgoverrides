@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.GoogleVoiceAndVideo</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>internet/google/voiceandvideo</string>
+		<key>NAME</key>
+		<string>GoogleVoiceAndVideo</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Internet Browser Plugins</string>
+			<key>developer</key>
+			<string>Google</string>
+			<key>icon_name</key>
+			<string>GoogleVoiceAndVideo.png</string>
+			<key>description</key>
+			<string>PlugIn for Google hangouts and Gmail Voice and Video</string>
+			<key>developer</key>
+			<string>Google</string>
+			<key>display_name</key>
+			<string>Google Voice and Video</string>
+			<key>installer_choices_xml</key>
+			<array>
+				<dict>
+					<key>attributeSetting</key>
+					<integer>1</integer>
+					<key>choiceAttribute</key>
+					<string>selected</string>
+					<key>choiceIdentifier</key>
+					<string>installer_choice_1</string>
+				</dict>
+				<dict>
+					<key>attributeSetting</key>
+					<integer>0</integer>
+					<key>choiceAttribute</key>
+					<string>selected</string>
+					<key>choiceIdentifier</key>
+					<string>installer_choice_2</string>
+				</dict>
+			</array>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+		<key>url</key>
+		<string>https://dl.google.com/googletalk/googletalkplugin/GoogleVoiceAndVideoSetup.dmg</string>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.joshua-d-miller.autopkg.munki.GoogleVoiceandVideo</string>
+</dict>
+</plist>
