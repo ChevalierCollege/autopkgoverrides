@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.Skype</string>
+	<key>Input</key>
+	<dict>
+		<key>DOWNLOAD_URL</key>
+		<string>http://www.skype.com/go/getskype-macosx.dmg</string>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>tools/microsoft/skype</string>
+		<key>NAME</key>
+		<string>Skype</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Useful Tools</string>
+			<key>developer</key>
+			<string>Microsoft</string>
+			<key>icon_name</key>
+			<string>Skype.png</string>
+			<key>description</key>
+			<string>Calling, seeing, messaging and sharing with others – wherever they are.</string>
+			<key>display_name</key>
+			<string>Skype</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+			<key>unattended_uninstall</key>
+			<true/>
+			<key>uninstallable</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.autopkg.munki.Skype</string>
+</dict>
+</plist>
