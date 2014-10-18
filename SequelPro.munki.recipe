@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.SequelPro</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>development/northofthree/sequelpro</string>
+		<key>NAME</key>
+		<string>SequelPro</string>
+		<key>SPARKLE_FEED_URL</key>
+		<string>http://www.sequelpro.com/appcast/app-releases.xml</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Development Tools</string>
+			<key>developer</key>
+			<string>North Of Three</string>
+			<key>icon_name</key>
+			<string>SequelPro.png</string>
+			<key>description</key>
+			<string>Sequel Pro is a fast, easy-to-use Mac database management application for working with MySQL databases.</string>
+			<key>display_name</key>
+			<string>SequelPro</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.jleggat.autopkg-recipes.SequelPro.munki</string>
+</dict>
+</plist>

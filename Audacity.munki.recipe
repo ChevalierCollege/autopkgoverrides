@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Identifier</key>
+	<string>au.edu.nsw.chevalier.it.munki.Audacity</string>
+	<key>Input</key>
+	<dict>
+		<key>MUNKI_REPO_SUBDIR</key>
+		<string>media/audacity/audacity</string>
+		<key>NAME</key>
+		<string>Audacity</string>
+		<key>SOURCEFORGE_FILE_PATTERN</key>
+		<string>audacity-macosx.*\.dmg</string>
+		<key>SOURCEFORGE_PROJECT_ID</key>
+		<string>6235</string>
+		<key>pkginfo</key>
+		<dict>
+			<key>catalogs</key>
+			<array>
+				<string>testing</string>
+			</array>
+			<key>category</key>
+			<string>Media Tools</string>
+			<key>developer</key>
+			<string>Audacity (Sourceforge)</string>
+			<key>icon_name</key>
+			<string>Audacity.png</string>
+			<key>description</key>
+			<string>Audacity is a free, easy-to-use, multi-track audio editor and recorder for Windows, Mac OS X, GNU/Linux and other operating systems.</string>
+			<key>display_name</key>
+			<string>Audacity</string>
+			<key>name</key>
+			<string>%NAME%</string>
+			<key>unattended_install</key>
+			<true/>
+		</dict>
+	</dict>
+	<key>ParentRecipe</key>
+	<string>com.github.timsutton.munki.audacity</string>
+</dict>
+</plist>
